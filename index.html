@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>midnight archive</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <p class="number">FILE 0001</p>
+
+        <h1>midnight archive</h1>
+
+        <p class="description">
+            fragments of things that were never meant to be forgotten.
+        </p>
+
+        <a href="secret.html" class="open-button">open archive</a>
+>
+
+        <div id="secret" class="hidden">
+
+            <p class="line">access granted.</p>
+
+            <p class="file">
+                archive_0001.txt
+            </p>
+
+            <p class="message">
+                some memories are better kept hidden.
+            </p>
+
+            <p class="code">
+                23 : 09 : 01
+            </p>
+
+        </div>
+
+    </main>
+
+    <script>
+        function showMessage() {
+            document.getElementById("secret").classList.remove("hidden");
+        }
+    </script>
+
+</body>
+</html>
